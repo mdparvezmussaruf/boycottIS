@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Website.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+select, .textbox {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.textbox {
+    background: black;
+    color: white;
+    font-size: 16px;
+}

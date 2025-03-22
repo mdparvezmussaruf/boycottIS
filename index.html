@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdowns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Portal Tech Co.</h2>
+        <select id="categoryDropdown">
+            <option value="" disabled selected>Select Category</option>
+            <option value="laptops">Laptops</option>
+            <option value="phones">Phones</option>
+        </select>
+
+        <div class="textbox" id="infoBox">Text will appear here...</div>
+
+        <select id="subcategoryDropdown" disabled>
+            <option value="" disabled selected>See available items</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
